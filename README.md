@@ -40,8 +40,8 @@ classification score. The model is evaluated using leave-one-subject-out cross-v
 
 ## Video Links
 
-- [Project Demo](../wesad/videos/CS_372_Demo.mp4)
-- [Technical Walkthrough](../wesad/videos/technical_walkthrough.mp4)
+- [Project Demo](https://drive.google.com/file/d/1NBI1-cL7VfQ4inXg19iYljR5jP_M7Dem/view?usp=sharing)
+- [Technical Walkthrough](https://drive.google.com/file/d/1tCOjxBOPMFjrD2GAib_qslwT1-fqxF1i/view?usp=sharing)
 
 ## Evaluation
 
