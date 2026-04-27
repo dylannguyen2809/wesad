@@ -13,8 +13,8 @@ classification score. The model is evaluated using leave-one-subject-out cross-v
 
 1. Clone the repository and install dependencies:
 ```bash
-   git clone <repo-url>
-   cd <repo-name>
+   git clone https://github.com/dylannguyen2809/wesad/tree/main
+   cd wesad
    pip install -r requirements.txt
 ```
 
