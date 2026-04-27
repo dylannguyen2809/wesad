@@ -26,15 +26,15 @@ classification score. The model is evaluated using leave-one-subject-out cross-v
 ```bash
    jupyter notebook
 ```
-   - `notebooks/preprocessing.ipynb` — reads raw `.pkl` files for all 15
+   - `notebooks/01_preprocessing.ipynb` — reads raw `.pkl` files for all 15
      subjects, extracts 60-second sliding windows (0.25 s shift), computes
      119 features per window, and saves processed arrays to
      `data/WESAD/processed_engineered_dropnan/`. This step takes ~40 minutes.
-   - `notebooks/ebm_final.ipynb` — trains an EBM with LOSO cross-validation
+   - `notebooks/02_ebm.ipynb` — trains an EBM with LOSO cross-validation
      over 14 dev subjects, runs ablation experiments, evaluates the final
      model on the held-out test subject, and generates global/local
      explanations.
-   - `notebooks/eda.ipynb` — (optional) exploratory data analysis: label
+   - `notebooks/00_eda.ipynb` — (optional) exploratory data analysis: label
      distributions, signal visualizations, per-subject window counts. Safe
      to run at any time after preprocessing.
 
